@@ -26,7 +26,7 @@ public class Ratio {
                     largest2 = num; //here we would find the 2nd largest
                 }
 
-                if (num < smallest1) {
+                if (num < smallest1) { //same thing as the largest1 and 2 operation
                     smallest2 = smallest1;
                     smallest1 = num;
                 } else if (num < smallest2) {
@@ -43,7 +43,7 @@ public class Ratio {
             return ratio;
             }
 
-
+//testing
     public static void main(String[] args) {
         //int[] arr = {0, 0, 10, 10};
         //int[] arr = {1};
